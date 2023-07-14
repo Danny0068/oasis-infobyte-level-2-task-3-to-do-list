@@ -1,0 +1,80 @@
+  @import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+
+body {
+    background: rgb(218,0,155);
+background: radial-gradient(circle, rgba(218,0,155,1) 0%, rgba(80,9,121,1) 35%, rgba(86,85,204,1) 100%);
+    font-family: Arial, sans-serif;
+    background-repeat:repeat;
+    background-size:contain;
+}
+  
+  .container {
+            background: rgba(255, 255, 255, 0.53);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5.5px);
+            -webkit-backdrop-filter: blur(5.5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            height: 600px;
+  }
+  
+  h1 {
+    background: rgba(255, 255, 255, 0.53);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    border:1px solid lightgray;
+    border-radius:20px;
+    font-family: 'Tektur', cursive;
+    text-align: center;
+
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  li span {
+    flex-grow: 1;
+  }
+  
+  button {
+    padding: 10px 20px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  .delete-button {
+    display: block;
+    margin-top: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    opacity:0.4;
+  }
